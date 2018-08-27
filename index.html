@@ -11,43 +11,52 @@
 </head>
 <body>
 
+<header class="header">
+	<button class="menu"><img src="./img/menu.svg" alt="menu"></button>
+	<p class="title">Юридическая фирма Дмитрия Попова</p>
+	<button class="contact">Мне только спросить</button>
+</header>
+
 <section class="troubles">
 	<div class="wrap">
-		<header class="header">
-			<button class="menu"><img src="./img/menu.svg" alt="menu"></button>
-			<p class="title">Юридическая фирма Дмитрия Попова</p>
-			<button class="contact">Мне только спросить</button>
-		</header>
 		<h2 class="sec-title">Проблемы<span>?</span></h2>
-		<div class="troubles__box">
+		<div class="box">
 			<p>Начинаем там, где многие уже остановились.<br>
 				Выигрываем там, где многие уже проиграли.</p>
 			<a href="#money" class="anchor">Факты и цифры</a>
 		</div>
 		<ul class="nav-list">
-			<li><button>Земля и недвижимость</button></li>
-			<li><button>Разрешение споров</button></li>
-			<li><button>Банкротство</button></li>
-			<li><button>Корпоративные споры</button></li>
-			<li><button>Договорное право</button></li>
-			<li><button>Юридическое сопровождение</button></li>
+			<li>
+				<button>Земля и недвижимость</button>
+			</li>
+			<li>
+				<button>Разрешение споров</button>
+			</li>
+			<li>
+				<button>Банкротство</button>
+			</li>
+			<li>
+				<button>Корпоративные споры</button>
+			</li>
+			<li>
+				<button>Договорное право</button>
+			</li>
+			<li>
+				<button>Юридическое сопровождение</button>
+			</li>
 		</ul>
 	</div>
 </section>
 
 <section id="money" class="money">
 	<div class="wrap">
-		<header class="header">
-			<button class="menu"><img src="./img/menu.svg" alt="menu"></button>
-			<p class="title">Юридическая фирма Дмитрия Попова</p>
-			<button class="contact">Мне только спросить</button>
-		</header>
 		<p class="efficiency">95%<span>всех дел завершаются<br>в нашу пользу.</span></p>
 		<a href="#" class="examples">Смотреть примеры</a>
 		<p class="protected">на <span class="big">600</span> миллионов рублей<br><span class="small">Было защищено активов в судах в пользу наших клиентов.</span>
 		</p>
-		<div class="money__box">
-			<p class="saved"><span class="big">117</span><br>миллионов рублей<br><span class="small">Сэкономили нашим клиентам в судах.</span></p>
+		<div class="box">
+			<p class="saved"><span class="big">117</span><br>миллионов рублей<br><span class="small">Сэкономили нашим клиентам в судах.</span>
+			</p>
 			<p class="protected">
 				<span class="big">77</span>миллионов рублей<br>
 				<span class="small">Взысканных средств в пользу клиентов.</span></p>
@@ -57,18 +66,115 @@
 
 <section class="we-are">
 	<div class="wrap">
-		<header class="header">
-			<button class="menu"><img src="./img/menu.svg" alt="menu"></button>
-			<p class="title">Юридическая фирма Дмитрия Попова</p>
-			<button class="contact">Мне только спросить</button>
-		</header>
-	<h2 class="sec-title">Кто мы<span>?</span></h2>
-	<p class="team">Судебные юристы.<br>Команда.</p><!--TODO: rename class-->
-	<a href="#" class="anchor">Познакомиться</a>
-	<div class="box">
-		<p class="exp"><span class="big">20</span><br>лет юридического стажа</p>
-		<p class="exp"><span class="big">15</span><br>лет успешной судебной практики</p>
+		<h2 class="sec-title">Кто мы<span>?</span></h2>
+		<p class="team">Судебные юристы.<br>Команда.</p><!--TODO: rename class-->
+		<a href="#" class="anchor">Познакомиться</a>
+		<div class="box">
+			<p class="exp"><span class="big">20</span><br>лет юридического стажа</p>
+			<p class="exp"><span class="big">15</span><br>лет успешной судебной практики</p>
+		</div>
 	</div>
+</section>
+
+<section class="boss">
+	<div class="wrap">
+		<img srcset="./img/boss.jpg,
+                  ./img/boss@2x.jpg 2x
+                  ./img/boss@3x.png 3x"
+		     alt="Дмитрий Попов"
+		     class="photo">
+
+		<div class="box">
+			<p class="role">руководитель</p>
+			<h2 class="name"><span>Дмитрий</span><br>Попов</h2>
+			<p class="desc">Московский государственный университет имени М. В. Ломоносова<br>
+				Финансовая академия при Правительстве Российской Федерации<br>
+				Член International Bar Association (IBA)<br>
+				Адвокат Адвокатской палаты Москвы с 1989 года<br>
+				Руководитель «Юридическая фирма Дмитрия Попова» с 2002 года</p>
+			<a href="#" class="mail">boss@legalpopov.ru</a><!--TODO: button?-->
+		</div>
+
+	</div>
+</section>
+
+<section class="anna">
+	<div class="wrap">
+		<img srcset="./img/anna.png,
+                  ./img/anna@2x.png 2x
+                  ./img/anna@3x.png 3x"
+		     alt="Анна Даль"
+		     class="photo">
+
+		<div class="box">
+			<p class="role">Юрист</p>
+			<h2 class="name"><span>Анна</span><br>Даль</h2>
+			<p class="desc">Московский государственный университет имени М. В. Ломоносова<br>
+				Финансовая академия при Правительстве Российской Федерации<br>
+				Член International Bar Association (IBA)<br></p>
+			<a href="#" class="mail">anna@legalpopov.ru</a><!--TODO: button?-->
+		</div>
+
+	</div>
+</section>
+
+<section class="maria">
+	<div class="wrap">
+		<img srcset="./img/maria.jpg,
+                  ./img/maria@2x.jpg 2x
+                  ./img/maria@3x.jpg 3x"
+		     alt="Мария Шишкина"
+		     class="photo">
+
+		<div class="box">
+			<p class="role">помощник руководителя</p>
+			<h2 class="name"><span>Мария</span><br>Шишкина</h2>
+			<p class="desc">Московский государственный университет имени М. В. Ломоносова<br>
+				Финансовая академия при Правительстве Российской Федерации<br>
+				Член International Bar Association (IBA)<br></p>
+			<a href="#" class="mail">maria@legalpopov.ru</a><!--TODO: button?-->
+		</div>
+
+	</div>
+</section>
+
+<section class="price">
+	<div class="wrap">
+		<h2 class="price-title"><span>Цены</span><br>Честные. Объективные.</h2>
+		<button class="cta">Полный список</button>
+		<p class="disclaimer">При работе над не типовыми задачами на стоимость могут влиять<br>
+			факторы сложности и объема работ по вашему делу, срочность и<br>
+			длительность процедур, места оказания услуг и формы сотрудничества<br>
+			(ведение дела, разовые услуги).</p>
+		<div class="box">
+			<p><span>2 000</span>&#x20BD;<br>устная консультация за час</p>
+			<p><span>3 000</span>&#8381;<br>составление документов</p>
+			<p><span>10 000</span>&#8381;<br>представительство в судах</p>
+		</div>
+	</div>
+</section>
+
+<section class="info">
+	<div class="wrap">
+		<h2 class="sec-title">Инфо.</h2>
+		<p class="disclaimer">Мы пишем журнал. Собственная практика, рассказываем про узкие и не очень<br>
+			места законодательства, про то, как избежать потери имущества на ровном<br>
+			месте, про ухищрения в земельных и жилищных спорах и еще о многом другом.<br>
+			О том, что так необходимо знать.</p>
+		<div class="box">
+			<button class="cta">Читать журнал</button>
+		</div>
+		<ul class="service-list"><!--TODO: remove "absolute"-->
+			<li><span>Если вы приобрели земельный участок</span>
+				это ещё не означает, что его не смогут у вас законно отобрать.</li>
+			<li><span>Сотрудники, клиенты, учредители:</span>
+				как выводят деньги перед банкротством.</li>
+			<li>Как не дать себя обмануть
+			<span>при, если ваша УК разорилась и кто-то хочет организовать ЖК.</span></li><!--TODO: "при,"..?-->
+			<li><span>Реализация корпоративного спора при разделе имущества владельцами.</span>
+				Когда можно остаться друзьями.</li>
+		</ul>
+		
 	</div>
 </section>
 </body>

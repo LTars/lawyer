@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.887 16.302">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="icon-menu" transform="translate(-1 -6)">
+    <g id="Artboard-1" transform="translate(1 6)">
+      <path id="editor-list-view-hambuger-menu-glyph" class="cls-1" d="M396.68,485a.673.673,0,0,0-.68.686v1.346a.677.677,0,0,0,.68.686h28.526a.673.673,0,0,0,.68-.686v-1.346a.677.677,0,0,0-.68-.686Zm0,6.792a.673.673,0,0,0-.68.686v1.346a.677.677,0,0,0,.68.686h28.526a.673.673,0,0,0,.68-.686v-1.346a.677.677,0,0,0-.68-.686Zm0,6.792a.673.673,0,0,0-.68.686v1.346a.677.677,0,0,0,.68.686h28.526a.673.673,0,0,0,.68-.686V499.27a.677.677,0,0,0-.68-.686Z" transform="translate(-396 -485)"/>
+    </g>
+  </g>
+</svg>

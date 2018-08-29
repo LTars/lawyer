@@ -99,7 +99,7 @@ button {
 	text-align: center;
 }
 
-.contact {
+.cta {
 	width: 150px;
 	height: 35px;
 	border-radius: 3px;
@@ -108,6 +108,7 @@ button {
 	line-height: 2.25;
 	text-align: center;
 	color: #ffffff;
+	cursor: pointer;
 }
 
 /*TROUBLES*/
@@ -233,7 +234,7 @@ button {
 	font-size: 16px;
 }
 
-.examples {
+.link {
 	display: inline-block;
 	margin: 0 0 116px 80px;
 	padding-bottom: 2px;
@@ -301,7 +302,7 @@ button {
 	position: initial;
 	margin-bottom: 36px;
 }
-.team {
+.text-50 {
 	position: relative;
 	margin: 0 0 61px 47px;
 	width: 494px;
@@ -310,7 +311,7 @@ button {
 	line-height: 75px;
 }
 
-.team::before {
+.we-are .text-50::before {
 	content: '';
 	position: absolute;
 	top: 64px;
@@ -476,15 +477,11 @@ button {
 	font-size: 150px;
 }
 
-.cta {
+.price .cta {
 	margin:  0 0 97px 278px;
 	width: 160px;
 	height: 50px;
-	border-radius: 3px;
-	background-color: #ff4b4b;
-	color: #ffffff;
 	font-size: 16px;
-	text-align: center;
 }
 
 .disclaimer {
@@ -525,8 +522,9 @@ button {
 }
 
 .info .sec-title {
-	position: static;
+	position: relative;
 	margin: 154px 0 81.5px 123px;
+	z-index: 1;
 }
 
 .info .sec-title::after {
@@ -539,9 +537,11 @@ button {
 }
 
 .info .disclaimer {
+	position: relative;
 	display: inline-block;
 	margin-left: 133px;
 	padding: 0;
+	z-index: 1;
 }
 
 .info .box {
@@ -549,7 +549,6 @@ button {
 	width: 377px;
 	height: 755px;
 	background-color: #f3f3f3;
-	z-index: -1;
 }
 
 .box .cta {
@@ -577,3 +576,101 @@ button {
 	border-radius: 50%;
 	background: #eeeeee;
 }
+
+/*FEEDBACK*/
+
+.feedback {
+	background: #f3f3f3;
+}
+
+.feedback .photo {
+	position: absolute;
+	bottom: 0;
+	left: -45px;
+	z-index: 2;
+}
+
+.feedback .box {
+	right: 0;
+	padding: 86px 139px 0;
+	width: 579px;
+	height: 755px;
+}
+
+.feedback-text {
+	margin-bottom: 106px;
+	font-family: 'Regular';
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.feedback-text span {
+	display: block;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #999999;
+}
+
+.feedback .link {
+	margin-bottom: 0;
+}
+
+/*CONTACT*/
+
+.contact .nav-list {
+	top: 294px;
+	left: 908px;
+}
+
+.contact .nav-list button {
+	padding: 0;
+	border: none;
+}
+
+.contact .text-50 {
+	margin: 450px 0 0 217px;
+}
+
+/*FOOTER*/
+
+.footer {
+	font-size: 12px;
+	line-height: 25px;
+	color: #999999;
+	background: #eeeeee;
+	text-align: center;
+	font-family: 'Regular', sans-serif;
+}
+
+.footer .wrap {
+	height: 120px;
+}
+
+.footer p {
+	margin: 15px auto 0;
+}
+
+.author a {
+	color: #000000;
+	border-bottom: solid 1px #cccccc;
+	text-decoration: none;
+	font-family: 'Bold', sans-serif;
+}
+
+.author::before {
+	content: '';
+	display: inline-block;
+	margin-right: 10px;
+	width: 15px;
+	height: 15px;
+	background-color: #ff4b4b;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+

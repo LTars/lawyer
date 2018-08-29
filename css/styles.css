@@ -16,6 +16,11 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'ALSRubl';
+	src: url('../fonts/rouble.ttf');
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -100,15 +105,21 @@ button {
 }
 
 .cta {
-	width: 150px;
-	height: 35px;
+	width: 160px;
+	height: 50px;
 	border-radius: 3px;
 	background-color: #ff4b4b;
-	font-size: 12px;
 	line-height: 2.25;
+	font-size: 16px;
 	text-align: center;
 	color: #ffffff;
 	cursor: pointer;
+}
+
+.header .cta {
+	width: 150px;
+	height: 35px;
+	font-size: 12px;
 }
 
 /*TROUBLES*/
@@ -294,13 +305,9 @@ button {
 	background: #f3f3f3;
 }
 
-.we-are .header {
-	margin-bottom: 102px;
-}
-
 .we-are .sec-title {
 	position: initial;
-	margin-bottom: 36px;
+	margin: 143px 0 36px;
 }
 .text-50 {
 	position: relative;
@@ -331,12 +338,25 @@ button {
 	text-align: center;
 }
 
+.we-are .box::before {
+	content: '';
+	position: absolute;
+	display: block;
+	top: 272.5px;
+	left: -103.5px;
+	width: 133px;
+	height: 3px;
+	background: #000000;
+}
+
 .exp {
 	margin-bottom: 92px;
+	font-family: 'Regular', sans-serif;
 }
 
 .exp .big {
 	font-size: 150px;
+	font-family: 'Bold', sans-serif;
 }
 
 /*BOSS*/
@@ -479,9 +499,6 @@ button {
 
 .price .cta {
 	margin:  0 0 97px 278px;
-	width: 160px;
-	height: 50px;
-	font-size: 16px;
 }
 
 .disclaimer {
@@ -496,6 +513,8 @@ button {
 	width: 377px;
 	text-align: center;
 }
+
+
 
 .price .box::before {
 	content: '';
@@ -514,6 +533,10 @@ button {
 
 .price .box span{
 	font-size: 70px;
+}
+.price .box .rub {
+	font-family: 'ALSRubl', sans-serif;
+	font-size: 30px;
 }
 
 /*INFO*/
@@ -559,8 +582,8 @@ button {
 	position: absolute;
 	top: 145px;
 	left: 932px;
-	margin-top: 145px;
 	width: 320px;
+	line-height: 25px;
 }
 
 .service-list span {
